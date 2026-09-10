@@ -7,6 +7,33 @@ Now that we’ve discussed more about object oriented design philosophies and te
 * [Python Classes](https://docs.python.org/3/tutorial/classes.html)
 
 ## Instructions
+## Project Overview
+
+This project implements a Python `CashRegister` class that simulates basic e-commerce checkout functionality.
+
+### Features
+
+- Creates a cash register with an optional percentage discount.
+- Validates discounts to ensure they are integers between 0 and 100.
+- Adds items and calculates the total based on price and quantity.
+- Tracks individual items and previous transactions.
+- Applies percentage discounts to the register total.
+- Allows the most recent transaction to be voided.
+- Provides messages when a discount or transaction cannot be applied.
+- Includes automated tests using `pytest`.
+
+### Testing
+
+Run the test suite with:
+
+```bash
+python3 -m pytest
+
+
+The completed implementation passes all 14 provided tests.
+### Completed Project
+
+![Cash Register tests](images/cash-register-tests.png)
 
 ### Set Up
 
